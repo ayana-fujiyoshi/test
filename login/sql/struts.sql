@@ -5,9 +5,9 @@ create database logindb_yamada;
 use logindb_yamada;
 
 create table user(
-	id int;
-	user_name varchar(255);
-	password varchar(255);
+	id int,
+	user_name varchar(255),
+	password varchar(255)
 );
 
 insert into user values
